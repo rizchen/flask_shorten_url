@@ -10,7 +10,7 @@ to project_folder:
 
 Build docker image:
 
-`$ docker build -t <youname>/flask_short_url .`
+`$ docker build -t <youname>/flask_shorten_url .`
 
 Run docker container:
 
