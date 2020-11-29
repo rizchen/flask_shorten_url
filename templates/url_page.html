@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}shorten URL{% endblock %}
+
+{% block content %}
+<form action="#", method="post">
+    <label for="url">請輸入您的 https:// Url:</label>
+
+    <input type="url" name="urlname" id="url"
+       placeholder="https://www.google.com/"
+       pattern="https://.*" size="80"
+       required>
+    <br>
+    <input type="submit" value="送出" class="btn btn-primary">
+</form>
+{% endblock %}

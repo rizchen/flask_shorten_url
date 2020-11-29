@@ -2,7 +2,7 @@ website: http://ywc-url.herokuapp.com/
 
 Git Clone:
 
-`git clone https://github.com/rizchen/flask_shorten_url.git`
+`$ git clone https://github.com/rizchen/flask_shorten_url.git`
 
 to project_folder:
 
