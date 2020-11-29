@@ -16,6 +16,11 @@ Run docker container:
 
 `$ docker run -d -p 5000:5000 --name <container name> <yourname>/flask_shorten_url`
 
+
+Use service:
+
+`http://localhost:5000/`
+
 Stop docker container:
 
 `$ docker stop <container name>`
